@@ -1,6 +1,4 @@
-FROM debian:jessie
-
-MAINTAINER Thomas Kerpe <toke@toke.de>
+FROM arm32v7/debian:jessie
 
 # Build-time metadata as defined at http://label-schema.org
 ARG BUILD_DATE
